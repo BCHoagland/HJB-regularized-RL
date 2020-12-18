@@ -12,6 +12,3 @@ visdom = "*"
 wandb = "*"
 pybulletgym = {editable = true, path = "./pybullet-gym"}
 matplotlib = "*"
-
-[requires]
-python_version = "3.8"
