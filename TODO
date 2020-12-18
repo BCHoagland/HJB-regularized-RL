@@ -1,4 +1,8 @@
+InvertedDoublePendulumPyBulletEnv
+InvertedPendulumSwingupPyBulletEnv
+Walker2DPyBulletEnv
 HalfCheetahPyBulletEnv
 AntPyBulletEnv
 HopperPyBulletEnv
+HumanoidPyBulletEnv
 HumanoidFlagrunPyBulletEnv
