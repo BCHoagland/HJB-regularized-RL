@@ -248,7 +248,7 @@ if __name__ == '__main__':
         seed = 3458,
         lr = 3e-4,
         noise = 0.15,
-        timesteps = 2e5,
+        timesteps = 2e6,
         batch = 128,
         taylor = 0.1,
         vis_iter = 400
