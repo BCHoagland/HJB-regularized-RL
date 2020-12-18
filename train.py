@@ -233,8 +233,6 @@ def train(algo, env_name, num_timesteps, lr, noise, batch_size, vis_iter, seed=0
 
 
 if __name__ == '__main__':
-    env = 'InvertedPendulumPyBulletEnv-v0'
-
     algos = {
         'ddpg': ddpgAgent,
         'reg': regularizationAgent,
@@ -244,14 +242,14 @@ if __name__ == '__main__':
 
     defaults = dict(
         algo = 'ddpg',
-        env = env,
+        env = 'InvertedPendulumPyBulletEnv-v0',
         seed = 3458,
         lr = 3e-4,
         noise = 0.15,
-        timesteps = 2e5,
+        timesteps = 2e6,
         batch = 128,
         taylor = 0.1,
-        vis_iter = 400
+        vis_iter = 200
     )
 
     # * for taylor_coef sweeps
@@ -261,7 +259,7 @@ if __name__ == '__main__':
     #     train(algo=Agent, env_name=config.env, num_timesteps=config.timesteps, lr=config.lr, noise=config.noise, batch_size=config.batch, vis_iter=200, seed=seed, log=True, taylor_coef=config.taylor)
 
     # * for seed sweeps
-    wandb.init(project=f'big-papa-HJB', group=f'{env}', config=defaults)
+    wandb.init(project=f'big-papa-HJB', config=defaults)
     config = wandb.config
     train(
         algo=algos[config.algo],
