@@ -10,11 +10,6 @@ parameters:
       - "InvertedDoublePendulumPyBulletEnv-v0"
       - "InvertedPendulumSwingupPyBulletEnv-v0"
       - "Walker2DPyBulletEnv-v0"
-      - "HalfCheetahPyBulletEnv-v0"
-      - "AntPyBulletEnv-v0"
-      - "HopperPyBulletEnv-v0"
-      - "HumanoidPyBulletEnv-v0"
-      - "HumanoidFlagrunPyBulletEnv-v0"
   algo:
     values:
       - "ddpg"

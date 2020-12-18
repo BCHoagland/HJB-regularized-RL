@@ -6,3 +6,13 @@ AntPyBulletEnv
 HopperPyBulletEnv
 HumanoidPyBulletEnv
 HumanoidFlagrunPyBulletEnv
+
+
+
+
+
+- "HalfCheetahPyBulletEnv-v0"
+- "AntPyBulletEnv-v0"
+- "HopperPyBulletEnv-v0"
+- "HumanoidPyBulletEnv-v0"
+- "HumanoidFlagrunPyBulletEnv-v0"
