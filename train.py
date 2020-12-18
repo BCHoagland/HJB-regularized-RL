@@ -233,7 +233,7 @@ def train(algo, env_name, num_timesteps, lr, noise, batch_size, vis_iter, seed=0
 
 
 if __name__ == '__main__':
-    env = 'InvertedPendulumPyBulletEnv-v0'
+    env = 'Walker2DPyBulletEnv-v0'
 
     algos = {
         'ddpg': ddpgAgent,
