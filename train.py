@@ -248,9 +248,10 @@ if __name__ == '__main__':
         seed = 3458,
         lr = 3e-4,
         noise = 0.15,
-        timesteps = 2e6,
+        timesteps = 2e5,
         batch = 128,
-        taylor = 0.1
+        taylor = 0.1,
+        vis_iter = 400
     )
 
     # * for taylor_coef sweeps
@@ -269,7 +270,7 @@ if __name__ == '__main__':
         lr=config.lr,
         noise=config.noise,
         batch_size=config.batch,
-        vis_iter=200,
+        vis_iter=config.vis_iter,
         seed=config.seed,
         log=True,
         taylor_coef=config.taylor
