@@ -233,7 +233,7 @@ def train(algo, env_name, num_timesteps, lr, noise, batch_size, vis_iter, seed=0
 
 
 if __name__ == '__main__':
-    env = 'InvertedPendulumPyBulletEnv-v0'
+    env = 'HumanoidPyBulletEnv-v0'
 
     algos = {
         'ddpg': ddpgAgent,
@@ -248,10 +248,10 @@ if __name__ == '__main__':
         seed = 3458,
         lr = 3e-4,
         noise = 0.15,
-        timesteps = 2e5,
+        timesteps = 2e6,
         batch = 128,
         taylor = 0.1,
-        vis_iter = 400
+        vis_iter = 200
     )
 
     # * for taylor_coef sweeps
