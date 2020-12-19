@@ -6,7 +6,8 @@ metric:
 parameters:
   env:
     values:
-      - "InvertedPendulumSwingupPyBulletEnv-v0"
+      - "InvertedPendulumPyBulletEnv-v0"
+      - "InvertedDoublePendulumPyBulletEnv-v0"
   algo:
     values:
       - "ddpg"
