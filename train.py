@@ -246,11 +246,14 @@ if __name__ == '__main__':
         seed = 3458,
         lr = 3e-4,
         noise = 0.15,
-        timesteps = 3e6,
+        timesteps = 10e6,
         batch = 128,
         taylor = 0.1,
         vis_iter = 200
     )
+    #! CHANGE TIMESTEPS BACK TO 1 MIL
+
+    #! REDO THE ANT ENVIRONMENT WITH EXTRA TIMESTEPS
 
     # * for taylor_coef sweeps
     # for seed in defaults['seed']:
