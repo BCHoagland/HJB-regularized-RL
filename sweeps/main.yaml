@@ -6,7 +6,7 @@ metric:
 parameters:
   env:
     values:
-      - "HumanoidPyBulletEnv-v0"
+      - "ReacherPyBulletEnv-v0"
   algo:
     values:
       - "ddpg"
